@@ -1,0 +1,44 @@
+github.com/laravel/laravel
+composer global require laravel/installer
+cd STOCK MANAGMENT
+composer create-project laravel/laravel project1
+extentions we need in this project
+- php Namespace Resolver
+- laravel Blade snippets
+
+
+
+
+cmd commands:laravel new name
+cd name
+
+php artisan make:model name -mcr
+php artisan migrate
+php artisan serve
+
+VS code edit in migration
+   DB_CONNECTION=mysql
+   DB_DATABASE=Name
+IN RES
+
+TO CREATE NEW TABLE IN THE SAME PROJECT 
+-php artisan make:migration create_product
+
+In Migration 
+-codes we edit: integer
+-script we edit: string
+
+To make a table in laravel
+ enter:resources
+ create in a folder:create.blade.php
+ after:doc and make a table
+ 
+LINK THE TABLE IN LARAVEL
+  Open Routes and create a new folder
+
+ 
+PART 2
+-Go to your Registration codes <form action="/Register" method="post">
+-Route::post('/Register', function() {
+ return 'thank you';
+ });
